@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <STYLE>A {text-decoration: none;} </STYLE>
+    <title>Dudas</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container_header">
+            <div class="logo">
+                <img src="../img/logo-magtimus.png" alt="Logo">
+            </div>
+            <div class="container_nav">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="../Portada.html">Menú</a></li>
+                        <li><a href="../empresas/empresas.html">Empresas</a></li>
+                        <li><a href="../php/dudas.html"  class="select">Dudas</a></li>
+                    </ul>
+                </nav>
+                <div class="btn_menu" id="btn_menu"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+    <h1>Ingrese su Duda</h1>
+    <form action="contacto.php" method="POST">
+        <input type="text" placeholder="Nombre" id="nombre" name="nombre" required>
+        <input type="email" placeholder="Ingresar Email" id="email" name="email" required>
+        <textarea name="mensaje" id="textarea" cols="30" rows="10" placeholder="Ingrese su Duda" required></textarea>
+        <input type="submit" name="button" value="Enviar Duda" id="button">
+    </form>
+    <Footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="../img/logo saavedra.png" alt="Logo">
+                </div>
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2021 <b>ICSL</b></p>
+            <br>
+            <p>Todos los derechos reservados © 2021 <b>Alejo Bergoglio</b></p>
+        </div>
+    </Footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
